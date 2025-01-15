@@ -12,11 +12,35 @@
 
 ```bash
 curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/material-ui-vite-ts
-cd material-ui-vite-ts
+mv material-ui-vite-ts mui_dashboard
+cd mui_dashboard
 npm install
-npm run dev
 ```
 
+## pull Dashboard
+
+- [from here](https://github.com/mui/material-ui/tree/master/docs/data/material/getting-started/templates/dashboard)
+- remove all *.js files
+
+### install dependency
+
+- [ref](https://github.com/mui/material-ui/tree/master/docs/data/material/getting-started/templates/dashboard)
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/x-charts
+npm install @mui/x-date-pickers
+npm install @mui/x-data-grid
+npm install @mui/x-tree-view
+npm install dayjs
+npm install react-router-dom @types/react-router-dom
+```
+
+### execute
+
+```bash
+npm run dev
+```
 
 
 # React + TypeScript + Vite (without template, obsolate on this project)

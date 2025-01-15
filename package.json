@@ -9,12 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "latest",
-    "@mui/material": "latest",
+    "@mui/material": "^6.4.0",
+    "@mui/x-charts": "^7.23.6",
+    "@mui/x-data-grid": "^7.23.6",
+    "@mui/x-date-pickers": "^7.23.6",
+    "@mui/x-tree-view": "^7.23.6",
+    "@types/react-router-dom": "^5.3.3",
+    "dayjs": "^1.11.13",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@types/react": "latest",
